@@ -1,4 +1,3 @@
-def hello_t
 def hello_t(array)
   if block_given?
     i = 0
@@ -19,3 +18,4 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
     puts "Hi, #{name}"
   end
 end
+#hello_t(["Tim", "Tom", "Jim"]) {}
